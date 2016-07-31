@@ -10,10 +10,12 @@
 - Install [brew](http://brew.sh/)
 - Install [nodejs](https://nodejs.org/en/)
   - If you want to use `nvm` (Node Version Manager), instruction can be found [here](https://github.com/tow02/install-nvm-osx)
+- Install [Virtualbox](https://www.virtualbox.org/)
+  - You might also need to install `VirtualBox Extension Pack`
 
 ## Setup
-
-> brew install watchman <br/> npm install -g react-native-cli
+> brew install watchman
+> <br/> npm install -g react-native-cli
 
 
 ### Android
@@ -40,3 +42,28 @@
 
 
 - Install [Genymotion](https://www.genymotion.com/)
+  - Go to **Settings** -> **ADB** tab. Click on `Use custom Android SDK tools` and add `/usr/local/opt/android-sdk` to Android SDK
+  - Create a virtual device
+
+
+## Verify Installation
+> react-native init demoApp
+> <br/> cd demoApp
+> <br/> npm start
+
+### Android
+
+Start a virtual device on Genymotion
+
+Open a new tab of Terminal and run
+> react-native run-android
+
+
+### iOS
+
+Open a new tab of Terminal and run
+> open ios/demoApp.xcodeproj
+
+Then click run on Xcode
+
+Now you can start develop application for both Android and iOS
