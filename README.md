@@ -16,6 +16,7 @@
 ## Setup
 > brew install watchman
 > <br/> npm install -g react-native-cli
+> <br/> npm install -g rnpm
 
 
 ### Android
