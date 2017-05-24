@@ -20,7 +20,7 @@
 
 
 ### Android
-- If you already had `Android Studio` or `Android SDK` installed on your computer, uninstall them first. Instruction to remove them all is [here](http://goo.gl/04h8Or).
+- If you already had `Android Studio` or `Android SDK` installed on your computer, uninstall them first. Instruction to remove them all is [here](https://stackoverflow.com/questions/17625622/how-to-completely-uninstall-android-studio).
 
 
 - Install `JDK`
